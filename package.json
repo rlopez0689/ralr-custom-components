@@ -12,7 +12,7 @@
     "license": "MIT",
     "homepage": "https://rodrigolopez.me",
     "repository": {
-        "url": "https://TODO...",
+        "url": "https://github.com/rlopez0689/ralr-custom-components",
         "type": "git"
     },
     "files": [
@@ -35,7 +35,8 @@
         "storybook": "storybook dev -p 6006",
         "build-storybook": "storybook build",
         "clean": "rimraf dist/",
-        "copyfiles": "copyfiles -u 1 src/**/*.css dist/"
+        "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
+        "push:npm": "np"
     },
     "devDependencies": {
         "@chromatic-com/storybook": "^1.7.0",
